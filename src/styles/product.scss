@@ -1,0 +1,28 @@
+.product {
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.product-img {
+  flex: 1;
+  padding: 1rem;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+}
+
+.product-des {
+  flex: 1;
+}
+
+.product-img img {
+  width: 100%;
+}
+
+.product-form {
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+}

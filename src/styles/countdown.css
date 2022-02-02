@@ -1,0 +1,51 @@
+.countdown-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.countdown-section {
+  width: 100%;
+  background: yellow;
+  position: relative;
+  padding: 15px;
+}
+
+.countdown {
+  background: var(--color-purple);
+  border-radius: 4px;
+}
+
+.countdown time span {
+  margin: 0 1rem;
+}
+
+time span p {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+time span small {
+  font-size: 1.2rem;
+  font-weight: 200;
+  background: orangered;
+  padding: 0 2px;
+  border: 1px solid transparent;
+  border-radius: 2px;
+}
+
+.close {
+  position: absolute;
+  font-size: 1.5rem;
+  top: 5px;
+  right: 1px;
+  color: red;
+  background: #fff;
+  border: 2px solid red;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
